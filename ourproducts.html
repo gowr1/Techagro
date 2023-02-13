@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techagro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <div class = "main-wrapper">
+        <div class = "container">
+            <div class = "main-title">
+                <h1>Fruits and Vegetables</h1>
+            </div>
+            <div class = "display-style-btns">
+                <button type = "button" id = "grid-active-btn">
+                    <i class = "fas fa-th"></i>
+                </button>
+                <button type = "button" id = "details-active-btn">
+                    <i class = "fas fa-list-ul"></i>
+                </button>
+            </div>
+
+            <div class = "item-list">
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.3I6FbcMMyJ32MzvnK9051QHaE8?w=272&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" width =300 alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Tomato</a>
+                        <div class = "item-price">
+                            <span class = "new-price">Rs.20.00</span>
+                        </div>
+                        <p>Fresh Tomatoes</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://prod-admin-images.s3.ap-south-1.amazonaws.com/7x2Ps1g9Ho9XCt2IpV1E-1/product/00213-SpinachCheeraRed21.jpg "width=350 alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Spinach</a>
+                        <div class = "item-price">
+                            <span class = "new-price">25.00</span>
+                        </div>
+                        <p>Red and Green Spinach</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.pIeIo6eySxQ_hViSg_XHrgHaFC?pid=ImgDet&rs=1" widht =300 alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Pumpkin</a>
+                        <div class = "item-price">
+                            <span class = "new-price">30.00</span>
+                        </div>
+                        <p>Fresh Pumpkin</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/R.b2f673ce10887a3c2f42cc9066d29c92?rik=1CzPwQsF%2fhK%2fqg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-Mzex_O21ef0%2fUEBf-ssLFdI%2fAAAAAAAAAEE%2fIAgAVxlhcyE%2fs1600%2fcoconut.jpg&ehk=1DP2kxuTPQQ516unomocPXHAXRWktdS%2beoOLzXLo2ME%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Coconut</a>
+                        <div class = "item-price">
+                            <span class = "new-price">20.00</span>                            
+                          </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Pineapple</a>
+                        <div class = "item-price">
+                            <span class = "new-price">Rs 25.00/piece</span>
+                           </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScPtz2ZoMJHYnZgrOoX4fWicItWpJT0savJQ&usqp=CAU">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Rambuttan</a>
+                        <div class = "item-price">
+                            <span class = "new-price">80/kg</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://images.unsplash.com/photo-1615485500710-aa71300612aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=581&q=80 alt=">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Green Gram</a>
+                        <div class = "item-price">
+                            <span class = "new-price">50.00/kg</span>
+                        </div>
+                        <p>Kudumbasree</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://cdn.britannica.com/59/139059-050-30794D53/Guava-fruit.jpg" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Guava</a>
+                        <div class = "item-price">
+                            <span class = "new-price">50.00/kg</span>
+                        </div>
+                        <p>Kudumbasree</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "main-wrapper">
+        <div class = "container">
+            <div class = "main-title">
+                <h1>Milk and Egg</h1>
+            </div>
+            <div class = "display-style-btns">
+                <button type = "button" id = "grid-active-btn">
+                    <i class = "fas fa-th"></i>
+                </button>
+                <button type = "button" id = "details-active-btn">
+                    <i class = "fas fa-list-ul"></i>
+                </button>
+            </div>
+
+            <div class = "item-list">
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDd-VKc81NpjXEjUAVLn1NEs0munmXLUxgZw&usqp=CAU">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Butter</a>
+                        <div class = "item-price">
+                            <span class = "new-price">Rs.200.00</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://cheeseknees.com/wp-content/uploads/2021/04/paneer2sq.jpg">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Paneer</a>
+                        <div class = "item-price">
+                            <span class = "new-price">50.00</span>
+                        </div>
+                        <p>Red and Green Spinach</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://5.imimg.com/data5/JY/VG/MY-9948889/dairy-farm-ghee-500x500.jpg">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Ghee</a>
+                        <div class = "item-price">
+                            <span class = "new-price">30.00</span>
+                        </div>
+                        <p>Fresh Pumpkin</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://images.unsplash.com/photo-1587049352851-8d4e89133924?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Honey</a>
+                        <div class = "item-price">
+                            <span class = "new-price">150.00</span>                            
+                          </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.fnteS-4vdingdgQpVtzfugHaE6?pid=ImgDet&rs=1" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Egg</a>
+                        <div class = "item-price">
+                            <span class = "new-price">Rs 9.00/piece</span>
+                           </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/R.2f5f0e3bba5adf191b38c65e6b6165e2?rik=VmMyoeyGvIoQdQ&riu=http%3a%2f%2fwww.naturalnews.com%2fgallery%2f640%2fCopyrighted%2fhealthimpactnews-raw-milk.jpg&ehk=jxFehxAXhRVdVhvScwl5FPSyVeRxOkvibUsR6iLcQ%2f4%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Milk</a>
+                        <div class = "item-price">
+                            <span class = "new-price">54.00/L</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "main-wrapper">
+        <div class = "container">
+            <div class = "main-title">
+                <h1>Curry Powders</h1>
+            </div>
+            <div class = "display-style-btns">
+                <button type = "button" id = "grid-active-btn">
+                    <i class = "fas fa-th"></i>
+                </button>
+                <button type = "button" id = "details-active-btn">
+                    <i class = "fas fa-list-ul"></i>
+                </button>
+            </div>
+
+            <div class = "item-list">
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://images.unsplash.com/photo-1615485500834-bc10199bc727?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHVybWVyaWMlMjBwb3dkZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60 ">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Turmeric Powder</a>
+                        <div class = "item-price">
+                            <span class = "new-price">Rs.20.00</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.sTxdx6y5n5aJ-po2OL12WgHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Cumin Powder</a>
+                        <div class = "item-price">
+                            <span class = "new-price">25.00</span>
+                        </div>
+                        <p>Kudumbasree</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.bFZCW3NIET2zhk5KERPN5QHaFl?w=240&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Garam Masala</a>
+                        <div class = "item-price">
+                            <span class = "new-price">30.00</span>
+                        </div>
+                        <p>Kudumbasree</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.d96xof_VUOTZZfxP3_YdigHaHa?w=191&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Coriander Powder</a>
+                        <div class = "item-price">
+                            <span class = "new-price">20.00</span>                            
+                          </div>
+                        <p>Kudumbasree</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.MPzaerdFE8Z26TxsvZsV3AHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Chilli Powder</a>
+                        <div class = "item-price">
+                            <span class = "new-price">Rs 25.00</span>
+                           </div>
+                        <p>Kudumbasree</p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+
+    <div class = "main-wrapper">
+        <div class = "container">
+            <div class = "main-title">
+                <h1>Agriculture</h1>
+            </div>
+            <div class = "display-style-btns">
+                <button type = "button" id = "grid-active-btn">
+                    <i class = "fas fa-th"></i>
+                </button>
+                <button type = "button" id = "details-active-btn">
+                    <i class = "fas fa-list-ul"></i>
+                </button>
+            </div>
+
+            <div class = "item-list">
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://www.garden.eco/wp-content/uploads/2018/07/mango-seedling.jpg" width =300 alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Mango Sapling</a>
+                        <div class = "item-price">
+                            <span class = "new-price">Rs.100.00</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMW0CClSmpYCiocAkl_7yClvvBHf-monW6g&usqp=CAU">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Jackfruit Sapling</a>
+                        <div class = "item-price">
+                            <span class = "new-price">120.00</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://5.imimg.com/data5/SELLER/Default/2022/4/JC/NF/MM/148475391/black-pepper-plants-500x500.jpg"width=200 alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Pepper</a>
+                        <div class = "item-price">
+                            <span class = "new-price">80.00</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://www.punnathanamnutmeg.com/wp-content/uploads/2019/08/nutmeg-plant-1.jpeg"width=200 alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Nutmeg</a>
+                        <div class = "item-price">
+                            <span class = "new-price">100.00</span>                            
+                          </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://media.istockphoto.com/photos/chicken-feed-picture-id646398536" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Chicken Food Stockfeed</a>
+                        <div class = "item-price">
+                            <span class = "new-price">30/kg</span>
+                           </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.Gfz4CYuKmTx_tjF7WRm4kAHaE7?pid=ImgDet&rs=1" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Stockfeed</a>
+                        <div class = "item-price">
+                            <span class = "new-price">60.00/Kg</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.nWucqfQx3ikppqHkwtgSuwHaE7?pid=ImgDet&rs=1" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Hay</a>
+                        <div class = "item-price">
+                            <span class = "new-price">12.00/kg</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://cocogarden.in/wp-content/uploads/2019/11/cow-manure-unpacked-1536x1152.jpg" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Cowdung Compost</a>
+                        <div class = "item-price">
+                            <span class = "new-price">10.00/kg</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+
+                
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "https://th.bing.com/th/id/OIP.KdaJoaW-oeKz6j15ygun9QHaE7?w=280&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+                        <div class = "icon-list">
+                            <button type = "button">
+                                <i class = "fas fa-sync-alt"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "fas fa-shopping-cart"></i>
+                            </button>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Earthworm Compost</a>
+                        <div class = "item-price">
+                            <span class = "new-price">15.00/kg</span>
+                        </div>
+                        <p></p>
+                        <button type = "button" class = "add-btn">add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src = "scripts.js"></script>
+</body>
+</html>
